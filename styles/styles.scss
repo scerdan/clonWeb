@@ -8,10 +8,8 @@
 
 body {
     background-color: #F6F6F6;
-    height: 3726px;
-
+    height: 1150px;
 }
-
 
 nav {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -43,6 +41,7 @@ nav {
 
             li {
                 margin: 0 0.5rem;
+                cursor: pointer;
             }
         }
 
@@ -91,9 +90,9 @@ section#caja1 {
     margin: 10.55rem 0 0 31rem;
     flex-wrap: wrap;
 
-    p:first-child {
+    p#subP {
         font-size: 20px;
-        font-weight: bold;
+        font-weight: 500;
         font-family: 'IBM Plex Sans', sans-serif;
 
     }
@@ -175,6 +174,25 @@ div#svgImg {
                 font-family: 'IBM Plex Sans', sans-serif;  
             }
         }
+    }
+}
+
+footer {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    margin: 0 30vw;
+    width: 40vw;
+    height: 34px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 1116px;
+
+    a {
+        color: #1AB7FF;
+        letter-spacing: 1px;
     }
 
 }
