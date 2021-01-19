@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  height: 3726px;
+}
+
+nav {
+  font-family: "IBM Plex Sans", sans-serif;
+  position: fixed;
+  z-index: 2;
+  font-size: 1rem;
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  font-weight: lighter;
+}
+nav img.logo {
+  padding: 1rem 0 1rem 135px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0 5vw;
+}
+nav ul li {
+  margin: 0 0.5vw;
+}
+nav ul li a#arrow {
+  display: inline-flex;
+  transform: rotate(90deg);
+}
+nav #spanRight {
+  margin: 0 0vw 0 25vw;
+}
+nav #spanRight a {
+  color: #00afff;
+  text-decoration: none;
+  margin: 0 0.5vw;
+}
+nav #spanRight a#reg {
+  background-color: #00AFFF;
+  color: white;
+  border-radius: 10em;
+  padding: 0.8rem 1rem;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 692px;
+  z-index: -1;
+  top: 0;
+  background-color: #80FFFB;
+  display: flex;
+  justify-content: center;
+}
+main video {
+  -webkit-clip-path: inset(0 13px);
+}
+
+section#caja1 {
+  color: #211748;
+  position: absolute;
+  display: flex;
+  width: 30vw;
+  height: 50vh;
+  margin: 13vh 0 0 17vw;
+  border: 1px solid white;
+  flex-wrap: wrap;
+  margin-top: 180px;
+}
+section#caja1 h1 {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+section#caja1 p {
+  width: 100%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+}
+section#caja1 p.subP {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+}
+section#caja1 section {
+  width: 50%;
+}
+section#caja1 a {
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 30%;
+  height: 45px;
+  background-color: #00AFFF;
+  color: white;
+  border-radius: 10em;
+  padding: 0 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
